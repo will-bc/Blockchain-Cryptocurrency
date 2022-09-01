@@ -48,12 +48,17 @@ So complete mindset:
 
 ```mermaid 
 graph TB 
+
+B["Nomal Multiplication"] -.-.-.-> X
+
 multiplicand --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product_ 
 
 result_product_-- "Division /<sub>f</sub>" -->multiplier
 multiplier--"Equal =<sub>f</sub>" -->multiplicand
 
-B["Nomal Multiplication"] -.-> X
+
+
+
 
 ```
 
