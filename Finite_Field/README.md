@@ -26,11 +26,17 @@ For F<sub>19</sub>
 ## Division
 ~~*The hardest logic operation*~~
 
+Normal multiplication
+
+```mermaid 
+graph LR 
+multiplicand_-->|multiplication(*)|multiplier-->|Equal(=)|result_product_ 
+
 **Intuition**: Inverse of multiplication
 
 ```mermaid 
-graph BT 
-result_product_-->|/|multiplier=multiplicand 
+graph LR 
+result_product_-->|Division(/)|multiplier-->|Equal(=)|multiplicand 
 
 ```
 
@@ -56,6 +62,7 @@ for F<sub>19</sub>
 
 7 /<sub>f</sub> 5 = 7*<sub>f</sub> 5 ^ (19 – 2) = 7 *<sub>f</sub> 5  ^ (17) = 5340576171875%19 = 9   *(expensive calculation)*
 
+***The expensive calculation is the ace in the hole in cryptography, because you can do the operation from one side, but the inverse is extremely difficult. And it is what protect the information to be stealed.***
 
 
 ## Formal Definition when a set is considered Finite Field
