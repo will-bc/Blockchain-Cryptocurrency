@@ -30,7 +30,7 @@ Normal multiplication
 
 ```mermaid 
 graph LR 
-multiplicand_ --"multiplication (*)" --> multiplier-->|Equal|result_product_ 
+multiplicand_ --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product_ 
 
 ```
 
@@ -50,9 +50,7 @@ So complete mindset:
 graph TB 
 multiplicand_ --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product_ 
 
-loop 
-    result_product_-->multiplier: "Fight"
-end
+result_product_-- "Division /"+<sub>f</sub> -->multiplier
 
 
 ```
