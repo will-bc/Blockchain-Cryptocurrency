@@ -49,14 +49,14 @@ So complete mindset:
 ```mermaid 
 graph TB 
 
-A["Nomal Multiplication"] -.-> result_product_
+A["Nomal Multiplication"] -.-> *
 
 multiplicand --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product_ 
 
 result_product_-- "Division /<sub>f</sub>" -->multiplier
 multiplier--"Equal =<sub>f</sub>" -->multiplicand
 
-multiplicand -.-> B["Finite Field Division"]
+/<sub>f</sub> <-.- B["Finite Field Division"]
 
 
 
