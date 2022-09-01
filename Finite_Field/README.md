@@ -53,7 +53,7 @@ multiplicand --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product
 result_product_-- "Division /<sub>f</sub>" -->multiplier
 multiplier--"Equal =<sub>f</sub>" -->multiplicand
 
-Nomal Multiplication -.-> X
+B["Nomal Multiplication"] -.-> X
 
 ```
 
