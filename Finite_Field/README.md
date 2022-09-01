@@ -50,8 +50,8 @@ So complete mindset:
 graph TB 
 multiplicand_ --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product_ 
 
-result_product_-- "Division /"+<sub>f</sub> -->multiplier
-
+result_product_-- "Division /<sub>f</sub>" -->multiplier
+multiplier-->|"Equal (=)"|multiplicand
 
 ```
 
