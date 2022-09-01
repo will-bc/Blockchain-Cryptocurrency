@@ -56,9 +56,9 @@ multiplicand --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product
 result_product_-- "Division /<sub>f</sub>" -->multiplier
 multiplier--"Equal =<sub>f</sub>" -->multiplicand
 
-multiplicand  === / 
+multiplicand  === / <-..- B["Finite Field Division"]
 
-B["Finite Field Division"] -..-> /
+
 
 ```
 
