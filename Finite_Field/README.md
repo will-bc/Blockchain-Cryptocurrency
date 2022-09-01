@@ -38,11 +38,24 @@ multiplicand_ --"multiplication (*)" --> multiplier-->|Equal|result_product_
 
 ```mermaid 
 graph LR 
-result_product_-->|'Division (/)'|multiplier-->|'Equal (=)'|multiplicand 
+result_product_-->|"Division (/)"|multiplier-->|"Equal (=)"|multiplicand 
 
 ```
 
 9 *<sub>f</sub> 5 =  45 % 19  = 7     implies that     7/<sub>f</sub> 5 = 9 
+
+So complete mindset:
+
+```mermaid 
+graph TB 
+multiplicand_ --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product_ 
+
+loop Healthcheck
+    result_product_->>multiplier: Fight
+end
+
+
+```
 
 
 How it really works:
