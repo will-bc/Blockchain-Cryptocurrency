@@ -60,7 +60,7 @@ multiplier--"Equal =<sub>f</sub>" -->multiplicand
 
 B["Finite Field Division"] -..-> /
 
-/ <=== B["Finite Field Division"]
+/ ... B["Finite Field Division"]
 
 ```
 
