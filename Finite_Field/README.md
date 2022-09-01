@@ -50,7 +50,7 @@ So complete mindset:
 graph TB 
 multiplicand_ --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product_ 
 
-loop Healthcheck
+loop 
     result_product_->>multiplier: Fight
 end
 
