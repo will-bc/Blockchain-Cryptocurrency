@@ -30,7 +30,7 @@ Normal multiplication
 
 ```mermaid 
 graph LR 
-multiplicand_-->|'multiplication (*)'|multiplier-->|'Equal (=)'|result_product_ 
+multiplicand_ --"multiplication (*)" --> multiplier-->|Equal|result_product_ 
 
 **Intuition**: Inverse of multiplication
 
