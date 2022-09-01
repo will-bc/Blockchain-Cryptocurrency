@@ -51,7 +51,7 @@ graph TB
 
 A["Nomal Multiplication"] -..-> *
 
-multiplicand --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product_ 
+multiplicand --"multiplication (*f)" --> multiplier-->|"Equal (=)"|result_product_ 
 
 result_product_-- "Division /<sub>f</sub>" -->multiplier
 multiplier--"Equal =<sub>f</sub>" -->multiplicand
