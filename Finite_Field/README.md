@@ -51,7 +51,7 @@ graph TB
 multiplicand_ --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product_ 
 
 loop 
-    result_product_->>multiplier: Fight
+    result_product_-->multiplier: "Fight"
 end
 
 
