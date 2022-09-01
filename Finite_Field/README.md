@@ -32,6 +32,8 @@ Normal multiplication
 graph LR 
 multiplicand_ --"multiplication (*)" --> multiplier-->|Equal|result_product_ 
 
+```
+
 **Intuition**: Inverse of multiplication
 
 ```mermaid 
