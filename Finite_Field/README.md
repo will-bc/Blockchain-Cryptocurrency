@@ -48,10 +48,10 @@ So complete mindset:
 
 ```mermaid 
 graph TB 
-multiplicand_ --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product_ 
+multiplicand --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product_ 
 
 result_product_-- "Division /<sub>f</sub>" -->multiplier
-multiplier--"Equal =<sub>f</sub>" -->multiplicand_
+multiplier--"Equal =<sub>f</sub>" -->multiplicand
 
 ```
 
