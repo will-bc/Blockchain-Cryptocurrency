@@ -53,10 +53,7 @@ multiplicand --"multiplication (*)" --> multiplier-->|"Equal (=)"|result_product
 result_product_-- "Division /<sub>f</sub>" -->multiplier
 multiplier--"Equal =<sub>f</sub>" -->multiplicand
 
-sequenceDiagram
-    participant multiplicand
-    participant result_product_
-    multiplicand->>result_product_:teste
+Nomal Multiplication -.-> X
 
 ```
 
