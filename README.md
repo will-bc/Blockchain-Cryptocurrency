@@ -11,9 +11,9 @@ Finite Field
 
 Cryptography
 
--[ ] Documentation
--[ ] Code
--[ ] Summary
+- [ ] Documentation
+- [ ] Code
+- [ ] Summary
 
 Reference
 
