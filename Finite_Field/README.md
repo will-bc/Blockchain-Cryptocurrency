@@ -69,13 +69,15 @@ How it really works:
 $n^{(p–1)}$ %p
 
 
-> It's Fermat’s little theorem, n is multiplication of terms and p value of the field 
+> It's Fermat’s little theorem, n term and p value of the field 
+
+a / b = a *<sub>f</sub> (1 / b) = a *<sub>f</sub> $b^{-1}$
 
 
 $n^{(p–2)}$ %p
 
 
-> when p is prime, which is common in finite field
+> p is prime
 
 **So**
 
