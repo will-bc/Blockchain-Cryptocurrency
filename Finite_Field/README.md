@@ -104,3 +104,50 @@ for F<sub>19</sub>
 
 >  First definition is the most important. The others are more supplementary details.
 
+## Math Codes
+
+Visualization of Finite Field
+
+```bash
+from FiniteField import FieldElement
+```
+> Importing class that determines one element of finite field
+
+```bash
+a= FieldElement (7,13)
+a
+```
+> FieldElement_13(7)
+
+It was determined the number '7' from finite field F<sub>13</sub>
+
+### Operations
+
+#### Sum
+
+```bash
+b= FieldElement(9,13) 
+
+a+b
+```
+
+> FieldElement_13(3)
+
+It's the same as 7+9 = 16 % 13 = 3
+
+#### Subtration
+
+```bash
+a-b
+```
+
+>FieldElement_13(11) 
+
+
+
+
+
+
+
+
+
