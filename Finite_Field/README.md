@@ -73,7 +73,7 @@ $n^{(p–1)}$ %p = 1
 
 > Applying inverse in multiplication
 
-a *<sub>f</sub> (1 / b) = a *<sub>f</sub> $b^{-1}$
+a *<sub>f</sub>b =a *<sub>f</sub> (1 / b) = a *<sub>f</sub> $b^{-1}$
 
 > Applying Fermat's little theorem
 
@@ -81,7 +81,7 @@ $b^{(p–1)}$ = 1
 
 $b^{-1}$ = $b^{-1}$ *<sub>f</sub> 1 = $b^{-1}$ *<sub>f</sub> $b^{(p–1)}$
 
-&there4
+###∴
 
 $n^{(p–2)}$ %p
 
