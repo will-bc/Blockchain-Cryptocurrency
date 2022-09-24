@@ -191,13 +191,13 @@ Python not assume negative numbers in exponentions, additional math to solve the
 Applying Fermat's little theorem $a^{(p-1)}$=1
 
 
-$a^{-3}$ = $a^{-3}$ * $a^{(p-1)}$ = $a^{(p-4)}$
+$a^{-3}$ = $a^{-3}$ * 1 = $a^{-3}$ * $a^{(p-1)}$ = $a^{(p-4)}$
 
 ### ∴
 
 e += prime - 1
 
-e = e + 13 - 1 = 13 - 4 = 9
+e = e + 13 - 1 = 3 +13 -1 = 13 - 4 = 9
 
 To better computation performance: 
 
@@ -206,7 +206,7 @@ e = exponent % (self.prime - 1)
 
 e = -3 % (13-1) = -3 % (12) = 9  
 
-if is not clear here the rest calculation consult Modulo Arithmetic in math.
+if is not clear here the rest calculation review Modulo Arithmetic in math.
 
 
 
