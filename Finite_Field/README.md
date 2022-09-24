@@ -113,7 +113,7 @@ for F<sub>19</sub>
 
 >  First definition is the most important. The others are more supplementary details.
 
-## Math Codes
+## Usability of mathematical code
 
 Visualization of Finite Field
 
