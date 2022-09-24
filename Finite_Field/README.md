@@ -206,7 +206,7 @@ e = exponent % (self.prime - 1)
 
 e = -3 % (13-1) = -3 % (12) = 9  
 
-if is not clear here the rest calculation review Modulo Arithmetic in math.
+if it is not clear here the rest calculation review Modulo Arithmetic in math.
 
 
 
