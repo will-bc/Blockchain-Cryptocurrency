@@ -178,7 +178,7 @@ a**3
 
 ### Math extentions
 
-#### Exponentions negative math cases
+#### Exponentions in negative math cases
 
 ```bash
 a**-3
