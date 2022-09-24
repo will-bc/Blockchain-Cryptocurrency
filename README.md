@@ -6,14 +6,14 @@ RAM Annotations
 Finite Field
 - [x] Documentation
 - [x] Code
-- [] Insert Summary
+- [ ] Insert Summary
 
 
 Cryptography
 
--[] Documentation
--[] Code
--[] Summary
+-[ ] Documentation
+-[ ] Code
+-[ ] Summary
 
 Reference
 
